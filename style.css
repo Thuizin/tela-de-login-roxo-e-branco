@@ -1,0 +1,144 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+}
+
+body{
+    background-color: #c9d6ff;
+    background: linear-gradient(to right, #e2e2e2, #c9d6ff);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    height: 100vh;
+    cursor: default;
+}
+
+.container{
+    display: flex;
+    background-color: #fff;
+    border-radius: 30px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.35);
+    position: relative;
+    overflow: hidden;
+    width: 768px;
+    max-width: 100%;
+    min-height: 480px;
+}
+
+#direita{
+    display: flex;
+    flex-direction: column;
+    background: linear-gradient(to right, #5c6bc0, #512da8);
+    border-radius: 200px 0px 0px 200px;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    color: #fff;
+    padding: 20px;
+}
+#direita h1{
+    font-size: 2rem;
+    margin-bottom: 10px;
+}
+#direita p{
+    font-weight: 100;
+}
+#direita a.btn3{
+    margin-top: 20px;
+    padding: 10px 50px;
+    text-decoration: none;
+    color: #fff;
+    border: 1px solid #fff;
+    border-radius: 10px;
+    transition: all .5s ease;
+}
+#direita a.btn3:hover{
+    padding: 15px 55px;
+    border-radius: 20px;
+    background-color: #fff;
+    color: #512da8;
+}
+
+#esquerda{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+}
+#esquerda h1{
+    font-size: 3rem;
+}
+#esquerda .rs{
+    margin: 20px 0px;
+    justify-content: space-around;
+}
+#esquerda .rs a{
+    color: #252525;
+    text-decoration: none;
+    background-color: #fff;
+    border: 1px solid #353535;
+    padding: 10px;
+    border-radius: 6px;
+    transition: all .5s ease;
+}
+#esquerda .rs a:hover{
+    padding: 15px;
+    border-radius: 15px;
+    background-color: #353535;
+    color: #fff;
+}
+
+#esquerda .campos{
+    display: flex;
+    flex-direction: column;
+    padding: 0px 5vw;
+}
+
+#esquerda input{
+    width: 20vw;
+    padding: 10px;
+    border-radius: 10px;
+    border: none;
+    background-color: #e2e2e2f9;
+    outline: none;
+}
+#esquerda input:first-child{
+    margin: 10px 0;
+}
+
+#esquerda .es{
+    color: #000;
+    margin-top: 10px;
+    text-decoration: none;
+    transition: all .3s ease;
+}
+#esquerda .es:hover{
+    color: #fff;
+    background-color: #353535;
+    padding: 10px;
+    border-radius: 10px;    
+}
+
+#esquerda a.btn2{
+    margin-top: 20px;
+    background-color: #512da8;
+    color: white;
+    text-decoration: none;
+    padding: 10px 50px;
+    border-radius: 10px;
+    transition: all .5s ease;
+}
+#esquerda a.btn2:hover{
+    color: #512da8;
+    background-color: #e2e2e2;
+    padding: 15px 55px;
+    border-radius: 20px;
+}
+
+p.text{
+    opacity: .7;
+}
